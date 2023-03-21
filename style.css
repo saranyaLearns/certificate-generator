@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #5D8FC9;
+    display: grid;
+    place-items: center;
+    font-family: 'Poppins';
+}
+.container{
+    height: 630px;
+    width: 300px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+}
+
+.form-group p{
+    font-size: 12px;
+    margin-top: 3px;
+    visibility: hidden;
+}
+.title{
+    display: grid;
+    place-items: center;
+    text-transform: uppercase;
+}
+.title h4{
+    padding: 3px;
+    color: #007BFF;
+    font-size: bold;
+}
+input,select{
+    height: 40px;
+    width: 220px;
+    background-color: #EBF0FC;
+    border-radius: 5px;
+    padding-left: 10px;
+    
+}
+button{
+    height: 40px;
+    width: 220px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.form-group.error p{
+    color: red;
+    visibility: visible;
+}
+.form-group.error input{
+    border-color: rgb(231, 71, 71);
+}
+.form-group.success p{
+    color: rgb(145, 185, 145);
+}
+.form-group.success input{
+    border-color: green;
+}
+
+
+.certificate{
+    margin-top: 12px;
+    height: 230px;
+    width: 220px;
+    background-color: #5D8FC9; 
+    border-radius: 20px;
+}
+#university{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+#result,#degree_name,#course_name{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}

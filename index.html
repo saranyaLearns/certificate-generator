@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <form action="index.html" id="form" class="form" method="get">
+            <div class="title">
+                <h4>Course Completion</h4>
+                <h4>Certificate</h4>
+            </div>
+            <div class="form-group">
+                <input type="text" id="userName" placeholder="User Name"  data-name="User Name">
+                <p>Error Message</p>
+            </div>
+            <div class="form-group">
+                <input type="text" id="email" placeholder="Email ID"  data-name="Email ID">
+                <p>Error Message</p>
+            </div>
+
+            <div class="form-group">
+                <label for="degree">
+                    <select name="degree" id="degree">
+                        <option value="">Select Degree</option>
+                    </select>
+                </label>
+                <p>Error Message</p>
+            </div>
+             <div class="form-group">
+                <label for="course">
+                    <select name="course" id="course">
+                        <option value="">Select Course</option>
+                    </select>
+                </label>
+                <p>Error Message</p>
+            </div>
+
+            <button type="submit" id="btnClick">Submit</button>
+
+            <div class="certificate">
+                <div id="university"></div>
+                <div id="content1"></div>
+                <p id="result" class="res"></p>
+                <div id="content2"></div>
+                <p id="degree_name" class="degree_name"></p>
+                <div id="content3"></div>
+                <p id="course_name" class="course_name"></p>
+                <div id="content4"></div>
+            </div>
+
+
+
+
+
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
